@@ -36,10 +36,10 @@ lik_M5_GM1 <- apply(lik_M5_GM1,2,max)
 rm(fit_simulated_M5_GM1)
 
 
-M1_GM1_BIC <- 2*log(3)-2*lik_M1_GM1
-M3_GM1_BIC <- 3*log(3)-2*lik_M3_GM1
-M4_GM1_BIC <- 3*log(3)-2*lik_M4_GM1
-M5_GM1_BIC <- 3*log(3)-2*lik_M5_GM1
+M1_GM1_BIC <- 2*log(250)-2*lik_M1_GM1
+M3_GM1_BIC <- 3*log(250)-2*lik_M3_GM1
+M4_GM1_BIC <- 3*log(250)-2*lik_M4_GM1
+M5_GM1_BIC <- 3*log(250)-2*lik_M5_GM1
 
 M1_count <- 0
 M3_count <- 0
@@ -94,10 +94,10 @@ rm(fit_simulated_M5_GM3)
 
 
 
-M1_GM3_BIC <- 2*log(3)-2*lik_M1_GM3
-M3_GM3_BIC <- 3*log(3)-2*lik_M3_GM3
-M4_GM3_BIC <- 3*log(3)-2*lik_M4_GM3
-M5_GM3_BIC <- 3*log(3)-2*lik_M5_GM3
+M1_GM3_BIC <- 2*log(250)-2*lik_M1_GM3
+M3_GM3_BIC <- 3*log(250)-2*lik_M3_GM3
+M4_GM3_BIC <- 3*log(250)-2*lik_M4_GM3
+M5_GM3_BIC <- 3*log(250)-2*lik_M5_GM3
 
 M1_count <- 0
 M3_count <- 0
@@ -136,10 +136,10 @@ M5_counts <- append(M5_counts,M5_count)
 
 
 # BIC
-2*log(3)-2*mean(lik_M1_GM3)
-3*log(3)-2*mean(lik_M3_GM3)
-3*log(3)-2*mean(lik_M4_GM3)
-3*log(3)-2*mean(lik_M5_GM3)
+2*log(250)-2*mean(lik_M1_GM3)
+3*log(250)-2*mean(lik_M3_GM3)
+3*log(250)-2*mean(lik_M4_GM3)
+3*log(250)-2*mean(lik_M5_GM3)
 
 ## Generated Model 4
 load("fit_M1_GM4.RData")
@@ -163,10 +163,10 @@ lik_M5_GM4 <- apply(lik_M5_GM4,2,max)
 rm(fit_simulated_M5_GM4)
 
 
-M1_GM4_BIC <- 2*log(3)-2*lik_M1_GM4
-M3_GM4_BIC <- 3*log(3)-2*lik_M3_GM4
-M4_GM4_BIC <- 3*log(3)-2*lik_M4_GM4
-M5_GM4_BIC <- 3*log(3)-2*lik_M5_GM4
+M1_GM4_BIC <- 2*log(250)-2*lik_M1_GM4
+M3_GM4_BIC <- 3*log(250)-2*lik_M3_GM4
+M4_GM4_BIC <- 3*log(250)-2*lik_M4_GM4
+M5_GM4_BIC <- 3*log(250)-2*lik_M5_GM4
 
 M1_count <- 0
 M3_count <- 0
@@ -205,10 +205,10 @@ M5_counts <- append(M5_counts,M5_count)
 
 
 # BIC
-2*log(3)-2*mean(lik_M1_GM4)
-3*log(3)-2*mean(lik_M3_GM4)
-3*log(3)-2*mean(lik_M4_GM4)
-3*log(3)-2*mean(lik_M5_GM4)
+2*log(250)-2*mean(lik_M1_GM4)
+3*log(250)-2*mean(lik_M3_GM4)
+3*log(250)-2*mean(lik_M4_GM4)
+3*log(250)-2*mean(lik_M5_GM4)
 
 ## Generated Model 5
 load("fit_M1_GM5.RData")
@@ -231,10 +231,10 @@ lik_M5_GM5    <- loo::extract_log_lik(stanfit = fit_simulated_M5_GM5, parameter_
 lik_M5_GM5 <- apply(lik_M5_GM5,2,max)
 rm(fit_simulated_M5_GM5)
 
-M1_GM5_BIC <- 2*log(3)-2*lik_M1_GM5
-M3_GM5_BIC <- 3*log(3)-2*lik_M3_GM5
-M4_GM5_BIC <- 3*log(3)-2*lik_M4_GM5
-M5_GM5_BIC <- 3*log(3)-2*lik_M5_GM5
+M1_GM5_BIC <- 2*log(250)-2*lik_M1_GM5
+M3_GM5_BIC <- 3*log(250)-2*lik_M3_GM5
+M4_GM5_BIC <- 3*log(250)-2*lik_M4_GM5
+M5_GM5_BIC <- 3*log(250)-2*lik_M5_GM5
 
 M1_count <- 0
 M3_count <- 0
@@ -273,10 +273,10 @@ M5_counts <- append(M5_counts,M5_count)
 
 
 # BIC
-2*log(3)-2*mean(lik_M1_GM5)
-3*log(3)-2*mean(lik_M3_GM5)
-3*log(3)-2*mean(lik_M4_GM5)
-3*log(3)-2*mean(lik_M5_GM5)
+2*log(250)-2*mean(lik_M1_GM5)
+3*log(250)-2*mean(lik_M3_GM5)
+3*log(250)-2*mean(lik_M4_GM5)
+3*log(250)-2*mean(lik_M5_GM5)
 
 ########################## Create matrix
 # Rows generated (true) model, column percentage best fit model
