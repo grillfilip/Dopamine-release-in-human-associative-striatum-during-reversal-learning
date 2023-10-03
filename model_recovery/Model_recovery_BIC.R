@@ -127,19 +127,6 @@ M3_counts <- append(M3_counts,M3_count)
 M4_counts <- append(M4_counts,M4_count)
 M5_counts <- append(M5_counts,M5_count)
 
-# Data generated from model 3 AIC and BIC
-
-2*2-2*mean(lik_M1_GM3)
-2*3-2*mean(lik_M3_GM3)
-2*3-2*mean(lik_M4_GM3)
-2*3-2*mean(lik_M5_GM3)
-
-
-# BIC
-2*log(250)-2*mean(lik_M1_GM3)
-3*log(250)-2*mean(lik_M3_GM3)
-3*log(250)-2*mean(lik_M4_GM3)
-3*log(250)-2*mean(lik_M5_GM3)
 
 ## Generated Model 4
 load("fit_M1_GM4.RData")
@@ -196,19 +183,6 @@ M3_counts <- append(M3_counts,M3_count)
 M4_counts <- append(M4_counts,M4_count)
 M5_counts <- append(M5_counts,M5_count)
 
-# Data generated from model 4 AIC and BIC
-
-2*2-2*mean(lik_M1_GM4)
-2*3-2*mean(lik_M3_GM4)
-2*3-2*mean(lik_M4_GM4)
-2*3-2*mean(lik_M5_GM4)
-
-
-# BIC
-2*log(250)-2*mean(lik_M1_GM4)
-3*log(250)-2*mean(lik_M3_GM4)
-3*log(250)-2*mean(lik_M4_GM4)
-3*log(250)-2*mean(lik_M5_GM4)
 
 ## Generated Model 5
 load("fit_M1_GM5.RData")
@@ -264,19 +238,6 @@ M3_counts <- append(M3_counts,M3_count)
 M4_counts <- append(M4_counts,M4_count)
 M5_counts <- append(M5_counts,M5_count)
 
-# Data generated from model 5 AIC and BIC
-
-2*2-2*mean(lik_M1_GM5)
-2*3-2*mean(lik_M3_GM5)
-2*3-2*mean(lik_M4_GM5)
-2*3-2*mean(lik_M5_GM5)
-
-
-# BIC
-2*log(250)-2*mean(lik_M1_GM5)
-3*log(250)-2*mean(lik_M3_GM5)
-3*log(250)-2*mean(lik_M4_GM5)
-3*log(250)-2*mean(lik_M5_GM5)
 
 ########################## Create matrix
 # Rows generated (true) model, column percentage best fit model
